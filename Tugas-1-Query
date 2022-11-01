@@ -1,0 +1,13 @@
+Skema:
+
+1. siswa(siswa-nim, siswa-nama, siswa-tanggal-lahir, siswa-alamat)
+2. pelajaran(pelajaran-kode, pelajaran-nama, guru-nig)
+3. guru(guru-nig, guru-nama)
+4. kelas(kelas-nomor, guru-nig)
+5. jadwal(jadwal-kode, jadwal-hari, kelas-nomor, guru-nig)
+6. daftar-hadir(jadwal-kode, siswa-nim)
+
+Buatlah query untuk:
+1. Cari nama seluruh siswa pada kelas "1C"
+2. Cari seluruh guru yang tidak menjadi wali kelas.
+3. Tampilkan siswa yang lahir setelah tanggal 1 Januari 2002.
