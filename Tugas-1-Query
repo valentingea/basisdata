@@ -9,5 +9,8 @@ Skema:
 
 Buatlah query untuk:
 1. Cari nama seluruh siswa pada kelas "1C"
+   -> π siswa-nama (σ kelas-nomor = "1C" (kelas))
 2. Cari seluruh guru yang tidak menjadi wali kelas.
+   -> σ guru-nama (guru-kelas)
 3. Tampilkan siswa yang lahir setelah tanggal 1 Januari 2002.
+   -> π siswa-nama (σ siswa-tanggal-lahir > "1 Januari 2002" (siswa))
